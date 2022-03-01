@@ -6,5 +6,45 @@ serialNumber = "C02CHNYVML7H"
 smbios.reflectHost = "FALSE"
 efi.nvram.var.ROM.reflectHost = "FALSE"
 efi.nvram.var.MLB.reflectHost = "FALSE"
-efi.nvram.var.ROM = "EEE"
-efi.nvram.var.MLB = "FFF"
+efi.nvram.var.ROM = "AA092B1C7410"
+efi.nvram.var.MLB = "C02013300J9P8PG1H"
+
+
+
+##############
+
+find line...
+
+board-id.reflectHost = "FALSE"
+Replace it with...
+
+board-id.reflectHost = "TRUE"
+then, the line...
+
+firmware = "efi"
+
+
+Find the line...
+
+ethernet0.addressType = "generated"
+Replace it with...
+
+ethernet0.addressType = "static"
+
+
+
+Find the line...
+
+ethernet0.generatedAddress = "xx:xx:xx:xx:xx:xx"
+Replace it with...
+
+ethernet0.Address = "DDD"
+get the unix address('DDD') from https://hwaddress.com/company/apple-inc/. Click any line under "MAC Range", then copy any MAC address under "Unix". Replace DDD with the copied Unix address.
+0:3:93:0:0:0
+
+Find the line...
+
+ethernet0.generatedAddressOffset = "0"
+Replace it with...
+
+ethernet0.checkMACAddress = "false"
