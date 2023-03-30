@@ -197,7 +197,7 @@
                     <key>BundlePath</key>
                     <string>IntelBluetoothFirmware.kext</string>
                     <key>Comment</key>
-                    <string>V2.3.0 | IntelBluetoothFirmware.kext</string>
+                    <string>V2.2.0 | IntelBluetoothFirmware.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -215,7 +215,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.3 | Lilu.kext</string>
+                    <string>V1.6.4 | Lilu.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -323,7 +323,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext</string>
                     <key>Comment</key>
-                    <string>V2.3.2</string>
+                    <string>V2.3.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -359,7 +359,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.2 | WhateverGreen.kext</string>
+                    <string>V1.6.4 | WhateverGreen.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -431,7 +431,7 @@
                     <key>BundlePath</key>
                     <string>VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.3</string>
+                    <string>V1.1.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -449,7 +449,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.3</string>
+                    <string>V1.1.4</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
@@ -467,7 +467,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
                     <key>Comment</key>
-                    <string>V2.3.2</string>
+                    <string>V2.3.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -485,7 +485,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext</string>
                     <key>Comment</key>
-                    <string>V2.3.2</string>
+                    <string>V2.3.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -503,7 +503,7 @@
                     <key>BundlePath</key>
                     <string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
                     <key>Comment</key>
-                    <string>V2.3.2</string>
+                    <string>V2.3.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -539,7 +539,7 @@
                     <key>BundlePath</key>
                     <string>VoodooRMI.kext/Contents/PlugIns/VoodooInput.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.3</string>
+                    <string>V1.1.4</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
@@ -557,7 +557,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.6 | AppleALC.kext</string>
+                    <string>V1.8.0 | AppleALC.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -593,7 +593,7 @@
                     <key>BundlePath</key>
                     <string>BrightnessKeys.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.3 | BrightnessKeys.kext</string>
+                    <string>V1.0.2 | BrightnessKeys.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -683,7 +683,7 @@
                     <key>BundlePath</key>
                     <string>VoodooI2C.kext</string>
                     <key>Comment</key>
-                    <string>V2.7</string>
+                    <string>V2.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -820,6 +820,8 @@
                 <integer>0</integer>
                 <key>HibernateMode</key>
                 <string>None</string>
+                <key>HibernateSkipsPicker</key>
+                <false/>
                 <key>HideAuxiliary</key>
                 <false/>
                 <key>LauncherOption</key>
@@ -887,7 +889,7 @@
                 <key>PasswordSalt</key>
                 <data></data>
                 <key>ScanPolicy</key>
-                <integer>2687747</integer>
+                <integer>0</integer>
                 <key>SecureBootModel</key>
                 <string>Disabled</string>
                 <key>Vault</key>
@@ -1073,6 +1075,12 @@
                 <integer>50</integer>
                 <key>KeySubsequentDelay</key>
                 <integer>5</integer>
+                <key>PointerDwellClickTimeout</key>
+                <integer>0</integer>
+                <key>PointerDwellDoubleClickTimeout</key>
+                <integer>0</integer>
+                <key>PointerDwellRadius</key>
+                <integer>0</integer>
                 <key>PointerPollMask</key>
                 <integer>-1</integer>
                 <key>PointerPollMax</key>
@@ -1191,6 +1199,8 @@
                 <false/>
                 <key>ForceResolution</key>
                 <false/>
+                <key>GopBurstMode</key>
+                <false/>
                 <key>GopPassThrough</key>
                 <string>Disabled</string>
                 <key>IgnoreTextInGraphics</key>
@@ -1279,6 +1289,8 @@
                 <true/>
                 <key>ResizeGpuBars</key>
                 <integer>-1</integer>
+                <key>ResizeUsePciRbIo</key>
+                <false/>
                 <key>TscSyncTimeout</key>
                 <integer>0</integer>
                 <key>UnblockFsConnect</key>
