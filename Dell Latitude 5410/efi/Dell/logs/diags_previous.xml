@@ -2,19 +2,18 @@
   <SupportAssistPrebootDiagnosticLog>
     <Schema>1.0.0</Schema>
     <LogNumber>1</LogNumber>
-    <LogTimeStamp>03/30/2024 11:28:33</LogTimeStamp>
+    <LogTimeStamp>08/11/2024 15:38:02</LogTimeStamp>
     <ePSA_Data>
-      <Result>Abort</Result>
+      <Result>Not Reported</Result>
       <ReturnCode>BOOT_HOST_OS</ReturnCode>
-      <DevicesTested>Disk,Memory</DevicesTested>
       <ePSAFullVersion>ED.1.1.1</ePSAFullVersion>
-      <ePSAInvocationCount>2</ePSAInvocationCount>
+      <ePSAInvocationCount>3</ePSAInvocationCount>
     </ePSA_Data>
     <BIOS_Data>
-      <ErrorCategory>NO_BOOT</ErrorCategory>
-      <ErrorMessage><![CDATA[No bootable devices found.
+      <ErrorCategory>BATTERY</ErrorCategory>
+      <ErrorMessage><![CDATA[WARNING: Battery is low.
 ]]></ErrorMessage>
-      <Flags>BIOSCONNECT_ENABLED</Flags>
+      <FRU_String><![CDATA[Unknown Battery]]></FRU_String>
       <SOS_Available>FALSE</SOS_Available>
       <TimeOutSeconds>0</TimeOutSeconds>
     </BIOS_Data>
